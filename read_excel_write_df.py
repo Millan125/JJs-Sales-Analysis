@@ -29,6 +29,7 @@ def rewd(key, path):
 
     final_df["Week"] = key
     return final_df
+    rewd()
 
 
 if __name__ == "__main__":
