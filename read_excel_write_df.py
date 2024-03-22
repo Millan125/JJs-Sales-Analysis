@@ -28,11 +28,11 @@ def rewd(key, path):
     final_df["Total"] = final_df["AM"] + final_df["PM"]
 
     final_df["Week"] = key
-
     return final_df
 
 
 if __name__ == "__main__":
     rewd(
-        "C:\\Users\\milla\\Downloads\\Weekly Sales Report - 0215 - Forbes Ave, Pittsburgh, PA   - Week 51, 2023.xls"
+        "week 51, 2023",
+        "C:\\Users\\milla\\Downloads\\Weekly Sales Report - 0215 - Forbes Ave, Pittsburgh, PA   - Week 51, 2023.xls",
     )
